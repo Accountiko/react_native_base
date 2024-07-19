@@ -6,13 +6,18 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "@gluestack-ui/nativewind-utils": "^1.0.21",
     "expo": "~51.0.21",
     "expo-status-bar": "~1.12.1",
+    "nativewind": "^4.0.1",
     "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react-native": "0.74.3",
+    "react-native-reanimated": "~3.10.1",
+    "tailwindcss": "^3.4.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
